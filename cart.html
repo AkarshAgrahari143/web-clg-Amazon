@@ -1,0 +1,246 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Amazon Cart</title>
+
+    <!-- External CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- Navbar -->
+    <header class="navbar">
+
+        <div class="logo">
+            <a href = "index.html">amazon<span>.in</span></a>
+        </div>
+
+        <div class="location">
+            <p>Deliver to</p>
+            <h4>India</h4>
+        </div>
+
+        <div class="search">
+            <select>
+                <option>All</option>
+                <option>Electronics</option>
+                <option>Books</option>
+                <option>Clothing</option>
+            </select>
+
+            <input type="text" placeholder="Search Amazon">
+
+            <button>🔍</button>
+        </div>
+
+        <div class="account">
+            <p>Hello, sign in</p>
+            <h4>Account & Lists</h4>
+        </div>
+
+        <div class="orders">
+            <p>Returns</p>
+            <h4>& Orders</h4>
+        </div>
+
+        <div class="cart">
+            🛒 Cart
+        </div>
+
+    </header>
+
+
+    <!-- Navigation Menu -->
+    <nav class="nav-menu">
+        <div>☰ All</div>
+        <div>Fresh</div>
+        <div>Best Sellers</div>
+        <div>Today's Deals</div>
+        <div>Mobiles</div>
+        <div>Electronics</div>
+        <div>Books</div>
+    </nav>
+
+
+    <!-- Main Cart Section -->
+    <main class="cart-container">
+
+        <!-- Cart Products -->
+        <section class="cart-items">
+
+            <h1>Shopping Cart</h1>
+
+            <p class="price-note">Price</p>
+
+            <hr>
+
+            <!-- Product 1 -->
+            <div class="cart-product">
+
+                <img
+                    src="https://images.unsplash.com/photo-1505740420928-5e560c06d30e?w=400"
+                    alt="Wireless Headphones">
+
+                <div class="cart-product-details">
+
+                    <h2>Wireless Headphones</h2>
+
+                    <p class="stock">In stock</p>
+
+                    <p>Eligible for FREE Shipping</p>
+
+                    <p>Colour: Black</p>
+
+                    <div class="cart-actions">
+                        <label for="quantity1">Qty:</label>
+
+                        <select id="quantity1">
+                            <option>1</option>
+                            <option>2</option>
+                            <option>3</option>
+                            <option>4</option>
+                        </select>
+
+                        <a href="#">Delete</a>
+                        <a href="#">Save for later</a>
+                    </div>
+
+                </div>
+
+                <div class="cart-product-price">
+                    ₹999.00
+                </div>
+
+            </div>
+
+            <hr>
+
+
+            <!-- Product 2 -->
+            <div class="cart-product">
+
+                <img
+                    src="https://images.unsplash.com/photo-1523275335684-37898b6baf30?w=400"
+                    alt="Smart Watch">
+
+                <div class="cart-product-details">
+
+                    <h2>Smart Watch</h2>
+
+                    <p class="stock">In stock</p>
+
+                    <p>Eligible for FREE Shipping</p>
+
+                    <p>Colour: Black</p>
+
+                    <div class="cart-actions">
+                        <label for="quantity2">Qty:</label>
+
+                        <select id="quantity2">
+                            <option>1</option>
+                            <option>2</option>
+                            <option>3</option>
+                            <option>4</option>
+                        </select>
+
+                        <a href="#">Delete</a>
+                        <a href="#">Save for later</a>
+                    </div>
+
+                </div>
+
+                <div class="cart-product-price">
+                    ₹1,499.00
+                </div>
+
+            </div>
+
+            <hr>
+
+            <div class="cart-total">
+                Subtotal (2 items): <strong>₹2,498.00</strong>
+            </div>
+
+        </section>
+
+
+        <!-- Order Summary -->
+        <aside class="cart-summary">
+
+            <p class="free-delivery">
+                Your order qualifies for FREE Delivery.
+            </p>
+
+            <p class="summary-total">
+                Subtotal (2 items):
+                <strong>₹2,498.00</strong>
+            </p>
+
+            <div class="gift-option">
+                <input type="checkbox" id="gift">
+
+                <label for="gift">
+                    This order contains a gift
+                </label>
+            </div>
+
+            <button class="checkout-button">
+                Proceed to Buy
+            </button>
+
+            <p class="secure-text">
+                🔒 Secure transaction
+            </p>
+
+        </aside>
+
+    </main>
+
+
+    <!-- Footer -->
+    <div class="back-top">
+        Back to top
+    </div>
+
+    <footer>
+
+        <div class="footer-links">
+
+            <div>
+                <h3>Get to Know Us</h3>
+                <p>About Amazon</p>
+                <p>Careers</p>
+                <p>Press Releases</p>
+            </div>
+
+            <div>
+                <h3>Connect with Us</h3>
+                <p>Facebook</p>
+                <p>Instagram</p>
+            </div>
+
+            <div>
+                <h3>Let Us Help You</h3>
+                <p>Your Account</p>
+                <p>Returns Centre</p>
+                <p>Help</p>
+            </div>
+
+        </div>
+
+        <div class="footer-bottom">
+            <h2>amazon<span>.in</span></h2>
+            <p>© 2026 Amazon Clone. Created for educational purposes.</p>
+        </div>
+
+    </footer>
+
+</body>
+
+</html>
